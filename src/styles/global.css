@@ -1,201 +1,57 @@
-/* Reset/Normalize */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* ================================
+   Global Styles
+   - Resets, base typography, colors
+   ================================ */
 
-/* Ensuring #root takes full height of the page */
-#root {
-  height: 100%;
-}
-
-/* Body */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #F0F4F8;
-  color: #333;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* Content pushed to top */
-}
-
-/* Body container with margin/padding */
-.body-section {
-  margin-bottom: 20px; /* Spacing between sections */
-}
-
-/* For headings within each body section */
-.body-section h2 {
-	font-size: 2rem;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-/* Paragraph text styling */
-.body-section p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #666;
-}
-
-li{
-	list-style-position: inside;
-}
-
-.body-section a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-.body-section a:hover {
-  text-decoration: underline;
-}
-
-/* Top Navigation Bar */
-header {
-  width: 100%;
-  background-color: #3F4E4F;  /* Light orange/yellow */
-  color: white;
-  padding: 15px 0;
-  text-align: center;
-}
-
-header a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-}
-
-header a:hover {
-  color: #007bff;
-}
-
-/* Main Content (Body) */
-.main-content {
-  padding: 40px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center; /* Centered Title */
-}
-
-.main-content h1, .main-content h2 {
-  font-family: 'Helvetica', sans-serif;
-  margin-bottom: 20px;
-}
-
-.main-content p {
-  text-align: left;  /* Left-aligned text */
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
+	 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-
-/* Portfolio Section */
-.portfolio {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.project-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
-  /* gap: 20px; */
-  justify-content: center;
-  /* padding: 20px; */
-}
-
-.project-card {
-  border: 1px solid #ccc;
-  padding: 20px;
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  height: 250px; /* Fixed height for uniformity */
-  width: 250px;  /* Fixed width to create squares */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.project-card h3 {
-  margin-bottom: 10px;
-}
-
-.project-card p {
-  font-size: 0.9rem;
-  color: #555;
-  flex-grow: 1;
-}
-
-.project-card a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: bold;
-}
-
-.project-card:hover {
-  transform: scale(1.02);
-  transition: 0.2s ease-in-out;
-}
-
-
-/* Footer */
-footer {
-  background-color: #3F4E4F;  /* Light orange/yellow */
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-  margin-top: auto; /* Footer stays at the bottom */
-}
-
-/* Project Details (Main Content) */
-.project-detail {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  margin-top: 40px;
-}
-
-.project-detail .left-column {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.project-detail .left-column h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.project-detail .left-column p {
-  font-size: 1rem;
-  color: #666;
-}
-
-.project-detail .right-column img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  object-fit: cover;
-}
-
-.contact-container {
-  text-align: center;
-  padding: 20px;
-}
-
-.contact-links {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 10px;
-}
-
-.contact-icon {
-  font-size: 2.5rem;
-	color: black;
-  transition: transform 0.2s ease-in-out;
-}
-
+	 /* Reset & Base */
+	 * {
+		 margin: 0;
+		 padding: 0;
+		 box-sizing: border-box;
+	 }
+	 
+	 html, body, #root {
+		 height: 100%;
+		 display: flex;
+		 flex-direction: column;
+	 }
+	 
+	 /* Body Styling */
+	 body {
+		 font-family: 'Roboto', sans-serif;
+		 background-color: #F0F4F8;
+		 color: #333;
+	 }
+	 
+	 /* Typography */
+	 p {
+		 font-size: 1rem;
+		 line-height: 1.6;
+		 color: #666;
+		 text-align: left; 
+	 }
+	 
+	 p:not(:only-child):not(:last-child) {
+		margin-bottom: 20px;
+	}
+	
+	 
+	 ul, li {
+		 padding-left: 1rem;
+		 list-style-position: outside;
+		 line-height: 1.6;
+	 }
+	 
+	 /* Links */
+	 a {
+		 color: #116466;
+		 text-decoration: none;
+	 }
+	 a:hover {
+		 text-decoration: underline;
+		 color: #88bdbc;
+	 }
+	 

@@ -1,0 +1,140 @@
+/* ================================
+   Section-Specific Styling
+   - About, Projects, Contact, Publications
+   ================================ */
+
+/* section-title, about-grid, contact-container, etc... */
+
+/* Section Headings */
+.subheading, .section-title {
+  text-align: center;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  color: #444;
+}
+
+.section-title {
+  font-size: 1.5rem;
+}
+
+.name, .project-citation {
+  font-size: 1.2rem;
+  font-weight: bold;
+	text-align: center;
+	color: #116466;
+}
+
+.home-section p{
+  text-align: center;
+  margin: 0 auto;
+	padding: 0;
+}
+
+/* Grid Layouts */
+.projects-grid, .about-grid, .projects-column {
+  display: grid;
+  gap: 15px;
+  text-align: center;
+}
+
+.projects-grid, .projects-column, .about-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-grid {
+  max-width: fit-content;
+  align-items: center;
+}
+
+/* Project Details */
+.project-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.project-detail .left-column, .project-detail .right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-detail .right-column img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Contact Section */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 1rem;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+.contact-icons a {
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+  color: black;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-icon:hover {
+  color: #88bdbc;
+  transform: scale(1.2);
+}
+
+/* About */
+.about-grid img {
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Publications & Presentations */
+.presentations-container {
+  margin-top: 20px;
+}
+
+.publication-list, .presentations-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.publication-item {
+  margin-bottom: 1rem;
+}
+
+.author {
+	color:#444;
+}
+
+.title {
+  font-style: italic;
+}
+
+.journal a:hover {
+  text-decoration: underline;
+  color: #88bdbc;
+}
+ 
