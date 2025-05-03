@@ -16,7 +16,7 @@ const images = [
 
 function ProjectSE02() {
 	return (
-		<Body title="Mental Health Tracking AP">
+		<Body title="Mental Health Tracking API">
      <ProjectDetail
   images={images}
   sections={[
