@@ -1,0 +1,17 @@
+/* ================================
+   Responsive Styles
+   - Media Queries for layout & components
+   ================================ */
+
+	 @media (max-width: 768px) {
+		.project-detail {
+			grid-template-columns: 1fr;
+		}
+		.right-column {
+			text-align: center;
+		}
+	}
+	@media (min-width: 768px) {
+		.toggle-button {
+			padding: 0 40px;
+		}
