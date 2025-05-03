@@ -14,7 +14,7 @@ function About() {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<img src="src/assets/Profile3.jpeg" alt="Project Visual" />
+									<img src="@/assets/Profile3.jpeg" alt="Project Visual" />
 								</a>
 							</div>
 					<div className="profile-text">
