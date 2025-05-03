@@ -1,7 +1,6 @@
 import React from "react";
 import Body from "../../components/Body";
 import { Link } from "react-router-dom";
-// import ImageCarousel from "../../components/ImageCarousel";
 import ProjectDetail from "../../components/ProjectDetail";
 import image1 from "@/assets/DS01_EACSF_1.png";
 import image2 from "@/assets/DS01_EACSF_2.png";

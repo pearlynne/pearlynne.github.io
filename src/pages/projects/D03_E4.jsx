@@ -1,7 +1,6 @@
 import React from "react";
 import Body from "../../components/Body";
 import { Link } from "react-router-dom";
-// import ImageCarousel from "../../components/ImageCarousel";
 import ProjectDetail from "../../components/ProjectDetail";
 import image1 from "@/assets/DS03_E4_1.png"; 
 import image2 from "@/assets/DS03_E4_2.png";
@@ -17,7 +16,6 @@ function ProjectDS03() {
 		<Body title="Sleep Deficiency & Autonomic Dysregulation in Children with Autism">
 		<ProjectDetail
 		 cite="Chong, P. L. H., Abel, E., Pao, R., McCormick, C. E. B., & Schwichtenberg, A. J. (2021)."
-
   images={images}
   sections={[
     {
