@@ -10,21 +10,22 @@ function Header() {
       navigate("/");
     }
     window.location.href = `/#${sectionId}`;
-    console.log(sectionId);
+    // console.log(sectionId);
   };
 
   return (
     <header>
+      <div className="name">
+        <Link to="/">Pearlynne</Link>
+      </div>
       <nav>
-        <Link to="/">Home</Link>
         <a href="#about" onClick={() => handleSectionClick("about")}>
           About
         </a>
-        <Link to="/resume">Resume</Link>
-        <Link to="/portfolio">Portfolio</Link>
-        <a href="#contact" onClick={() => handleSectionClick("contact")}>
-          Contact
-        </a>
+        <Link to="/portfolio">Projects</Link>
+        <Link to="/publications">Publications</Link>
+				<Link to="/resume">Resume</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
     </header>
   );
