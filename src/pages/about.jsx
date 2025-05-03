@@ -30,7 +30,7 @@ function About() {
 							driven by a love for uncovering patterns in data—especially in
 							mental health.
 						</p>
-						<p>Outside of tech, I coach individuals with ADHD and silversmith!</p>
+						<p>Outside of tech, I coach individuals with ADHD and run my own jewelry business!</p>
 					</div>
 				</div>
 			</div>
