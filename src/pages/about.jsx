@@ -1,6 +1,7 @@
 import React from "react";
 import Body from "../components/Body";
-import { Link } from "react-router-dom";
+import ProfileImg from "../assets/Profile3.jpeg";
+
 
 function About() {
   return (
@@ -14,7 +15,7 @@ function About() {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<img src="@/assets/Profile3.jpeg" alt="Project Visual" />
+								<img src={ProfileImg} alt="Profile picture" />
 								</a>
 							</div>
 					<div className="profile-text">
