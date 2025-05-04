@@ -21,7 +21,13 @@
   font-size: 1.5rem;
 }
 
-.name, .project-citation {
+.name {
+  font-weight: bold;
+	text-align: center;
+	color: #116466;
+} 
+
+.project-citation {
   font-size: 1.2rem;
   font-weight: bold;
 	text-align: center;

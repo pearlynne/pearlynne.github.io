@@ -7,7 +7,7 @@
 .main-content {
   flex-grow: 1;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   padding: 40px;
 }
 
@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header nav {
@@ -32,7 +32,7 @@ header nav {
 header a {
   color: #333;
   font-size: 1rem;
-  padding: 0.5rem; 
+  padding: 0;
 }
 header a:hover {
   color: #88bdbc;
@@ -43,7 +43,7 @@ footer {
   display: flex;
   justify-content: space-between;
   background: #f8f9fa;
-	align-items: center;
+  align-items: center;
   padding: 1rem;
   margin-top: auto;
   position: relative;
@@ -51,8 +51,8 @@ footer {
 
 footer .footer-icons {
   display: flex;
-	justify-content: center;
-  gap: 1rem; 
+  justify-content: center;
+  gap: 1rem;
   font-size: 1.5rem;
   color: #333;
   transition: color 0.3s ease;
