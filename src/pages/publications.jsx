@@ -1,6 +1,5 @@
 import React from "react";
 import Body from "../components/Body";
-import { Link } from "react-router-dom";
 import PresentationsToggle from "../components/PresentationsToggle";
 import PublicationItem from "../components/Publications";
 
