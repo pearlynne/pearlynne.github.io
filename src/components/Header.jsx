@@ -19,12 +19,8 @@ function Header() {
         <Link to="/">Pearlynne</Link>
       </div>
       <nav>
-        <a href="#about" onClick={() => handleSectionClick("about")}>
-          About
-        </a>
-        <Link to="/portfolio">Projects</Link>
         <Link to="/publications">Publications</Link>
-				<Link to="/resume">Resume</Link>
+				<a href="https://drive.google.com/file/d/13y_Zb8VJ0ZqM2VsrVJ__B-R3hyJNJmdI/view?usp=sharing" target="_blank">Resume</a>
         <Link to="/contact">Contact</Link>
       </nav>
     </header>
