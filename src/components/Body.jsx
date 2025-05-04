@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 function Body({ title, children }) {
   return (
     <div className="main-content">
-      <div className="section-title">
-				{title}
-			</div>
+      {title && <div className="section-title">{title}</div>}
       {children}
     </div>
   );
@@ -14,6 +12,6 @@ function Body({ title, children }) {
 export default Body;
 
 Body.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   children: PropTypes.node
 };
