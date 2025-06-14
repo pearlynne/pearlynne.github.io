@@ -1,6 +1,6 @@
 import React from "react";
 import Body from "../components/Body";
-import ProfileImg from "../assets/Profile3.jpeg";
+import ProfileImg from "../assets/Profile4.jpeg";
 
 
 function About() {
