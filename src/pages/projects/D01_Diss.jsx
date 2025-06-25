@@ -85,7 +85,7 @@ cite="Chong, P. L. H. (2022)"
       heading: "Data Access",
       type: "text",
       content: <>
-			Due to ongoing publication, I am unable to provide full access to the data and analysis at this time. However, you can view my dissertation at
+			Due to ongoing publication, I am unable to provide full access to the data and analysis at this time. However, you can view my dissertation at 
 			<a
 				href="https://hammer.purdue.edu/articles/thesis/Sleep_and_developmental_risks_The_roles_of_extra-axial_cerebrospinal_fluid/20334816?file=36356652"
 				target="_blank"
