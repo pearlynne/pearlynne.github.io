@@ -20,7 +20,7 @@ function Header() {
       </div>
       <nav>
         <Link to="/publications">Publications</Link>
-				<a href="https://drive.google.com/file/d/13y_Zb8VJ0ZqM2VsrVJ__B-R3hyJNJmdI/view?usp=sharing" target="_blank">Resume</a>
+				<a href="https://drive.google.com/file/d/1Lo8vC07uI8EK7C-K-tuZBzNZyqLlFh7l/view?usp=sharing" target="_blank">Resume</a>
         <Link to="/contact">Contact</Link>
       </nav>
     </header>
