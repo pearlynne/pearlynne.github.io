@@ -16,9 +16,11 @@ function Header() {
   return (
     <header>
       <div className="name">
-        <Link to="/">Pearlynne</Link>
+        <Link to="/">pearlynne</Link>
       </div>
       <nav>
+        <Link to="/consulting">Consulting</Link>
+        <Link to="/portfolio">Works</Link>
         <Link to="/publications">Publications</Link>
 				<a href="https://drive.google.com/file/d/1tSTY6SJTF-GCiAEXD4yp_4EGcHk8qZY8/view?usp=sharing" target="_blank">Resume</a>
         <Link to="/contact">Contact</Link>
