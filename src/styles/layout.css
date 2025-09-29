@@ -5,10 +5,13 @@
 
 /* Main Layout */
 .main-content {
-  flex-grow: 1;
   max-width: 1200px;
   margin: auto;
   padding: 40px;
+}
+section {
+	display: flex;
+	flex-direction: column;
 }
 
 /* Header */
