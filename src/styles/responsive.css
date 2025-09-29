@@ -30,6 +30,9 @@
     flex-direction: column;
     gap: 0.5rem;
   }
+		.consult-section {
+		padding: 0rem;
+	}
 }
 
 @media (min-width: 768px) {
