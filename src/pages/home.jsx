@@ -1,22 +1,20 @@
 import React from "react";
 import Body from "../components/Body";
-import Portfolio from "./portfolio";
 import About from "./about";
 import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
-      <Body>
+      {/* <Body>
         <div className="home-section">
-          <p>
-            Welcome! I'm Pearl, a problem solver at heart — whether it's
-            analyzing data, developing apps, or designing jewelry.
-          </p>
-          <p>Explore my portfolio to see how I turn ideas into reality.</p>
+            <h2>Hello. I'm Pearlynne. </h2>
+          <h1>
+						I'm an Independent Data Consultant
+          </h1>
+          <p>Explore my portfolio or contact me.</p>
         </div>
-      </Body>
-      <Portfolio />
+      </Body> */}
       <About />
     </>
   );
