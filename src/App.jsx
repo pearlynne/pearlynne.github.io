@@ -1,10 +1,12 @@
 import { useRef } from "react";
 import { Routes, Route, Outlet } from "react-router-dom";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
+import Consulting from "./pages/consulting";
 import Portfolio from "./pages/portfolio";
 import Publications from "./pages/publications";
 import {
@@ -29,6 +31,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/publications" element={<Publications />} />
+				<Route path="/consulting" element={<Consulting />} />
         <Route path="/projects/EACSF" element={<ProjectDS01 />} />
         <Route path="/projects/GS" element={<ProjectDS02 />} />
         <Route path="/projects/E4" element={<ProjectDS03 />} />
