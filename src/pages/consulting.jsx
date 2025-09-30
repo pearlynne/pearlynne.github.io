@@ -140,7 +140,7 @@ function Consulting() {
           </li>
           <li>
             <strong>
-              Zhang S (now Graduate Student at Virignia Tech School of
+              Zhang S (now Graduate Student at Virginia Tech School of
               Neuroscience)
             </strong>{" "}
             – Independent undergraduate research project (completed)

@@ -24,7 +24,7 @@ function About() {
             </div>
             <div>
 							<p>
-								With 8 years of experience and a <a href="/publications">PhD in Human Development</a>, I bring
+								With over 11 years of experience and a <a href="/publications">PhD in Human Development</a>, I bring
 								expertise in{" "}
 								<a href="/portfolio">
 									data and statistical analysis
