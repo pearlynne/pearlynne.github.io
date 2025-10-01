@@ -147,8 +147,7 @@ function Consulting() {
           </li>
           <li>
             <strong>
-              Dr. Sum MY (now Senior Research Specialist at National Council of
-              Social Science Singapore)
+              Dr. Sum MY (now Senior Research Specialist in Singapore)
             </strong>{" "}
             – Dissertation support (completed)
           </li>
