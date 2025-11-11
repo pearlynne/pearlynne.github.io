@@ -36,7 +36,7 @@ font-size: 2rem;
 /* Accordion */
 .accordion {
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   text-align: left;
 }
 
@@ -71,7 +71,8 @@ summary::-webkit-details-marker {
   text-align: left;
 }
 
-.clientList li {
+.clientList li,
+.accordion li {
   margin: 0.5rem 0;
   font-size: 16px;
   color: var(--muted);
