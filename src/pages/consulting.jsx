@@ -37,37 +37,32 @@ function Consulting() {
           <div className={styles.accordion}>
             <details>
               <summary>Data & Statistical Consulting</summary>
-              <p>
                 <ul>
                   <li>Data cleaning, wrangling, workflow design</li>
                   <li>Statistical analysis</li>
                   <li>Interpreting results and creating visualizations</li>
                   <li>Linking results to actionable insights</li>
                   <li>
-                    Projects: <a href="./projects/EACSF">EACSF</a>,{" "}
-                    <a href="./projects/SleepConstruct">Sleep Construct</a>
+                    Projects: <a href="./projects/DS01">EACSF</a>,{" "}
+                    <a href="./projects/DS04">Sleep Construct</a>
                   </li>
                 </ul>
-              </p>
             </details>
             <details>
               <summary>Academic Consulting</summary>
-              <p>
                 <ul>
                   <li>Study design and methodology support</li>
                   <li>Structuring theses, dissertations, and manuscripts</li>
                   <li>Editing, proofreading, and figure/table preparation</li>
                   <li>Navigating the research process from start to finish</li>
                   <li>
-                    Projects: <a href="./projects/E4">E4</a>,{" "}
-                    <a href="./projects/GS">Glymphatic System</a>
+                    Projects: <a href="./projects/DS03">E4</a>,{" "}
+                    <a href="./projects/DS02">Glymphatic System</a>
                   </li>
                 </ul>
-              </p>
             </details>
             <details>
               <summary>Domain Expertise</summary>
-              <p>
                 <ul>
                   <li>Expertise in human development data</li>
                   <li>
@@ -83,11 +78,10 @@ function Consulting() {
                     Advisory role on project framing, design, or grant-writing
                   </li>
                   <li>
-                    Projects: <a href="./projects/EACSF">EACSF</a>,{" "}
-                    <a href="./projects/GS">Glymphatic System</a>
+                    Projects: <a href="./projects/DS01">EACSF</a>,{" "}
+                    <a href="./projects/DS02">Glymphatic System</a>
                   </li>
                 </ul>
-              </p>
             </details>
           </div>
         </section>
