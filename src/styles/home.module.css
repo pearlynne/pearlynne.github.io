@@ -1,0 +1,163 @@
+.snapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* ---------- HERO ---------- */
+.hero {
+  background: #ffffff;
+  text-align: center;
+  color: var(--text);
+  position: relative;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.name {
+  font-family: var(--font-serif);
+  color: var(--accent);
+  font-size: clamp(24px, 8vw, 56px);
+  font-weight: 400;
+  font-style: italic;
+  margin: -10px;
+}
+
+.subtitle {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 8vw, 36px);
+  color: var(--muted);
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.subtext {
+  max-width: 500px;
+}
+.navLinks {
+  display: flex;
+  justify-content: center;
+  gap: 0; /* start collapsed */
+  animation: spreadOut 0.8s ease forwards;
+ font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.navLinks a {
+  color: var(--accent);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  position: relative;
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeIn 0.7s ease forwards;
+  animation-delay: 0.2s; /* slightly after spread */
+}
+
+@keyframes spreadOut {
+  from {
+    gap: 0;
+    transform: scale(0.9);
+  }
+  to {
+    gap: 24px;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.navLinks a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  width: 0;
+  background: var(--accent);
+  transition: width 0.25s ease;
+}
+
+.navLinks a:hover::after {
+  width: 100%;
+}
+
+/* ---------- ABOUT ---------- */
+.about {
+  background: #f5f8ff;
+  min-height: fit-content;
+  text-align: justify;
+  margin-top: -15vh;
+  position: relative;
+  z-index: 2;
+  padding-top: 0rem;
+  width: 100%;
+}
+
+.aboutTitle {
+  font-family: var(--font-serif);
+  font-style: italic;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: clamp(28px, 6vw, 56px);
+  opacity: 0.3;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.inView {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.profilePic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.aboutText {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.aboutText.p {
+  margin-bottom: 1em;
+  font-size: 1rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 900px) {
+  .name {
+    font-size: clamp(28px, 10vw, 60px);
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .aboutTitle {
+    font-size: clamp(24px, 8vw, 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .profilePic {
+    width: 200px;
+    height: 200px;
+  }
+}
