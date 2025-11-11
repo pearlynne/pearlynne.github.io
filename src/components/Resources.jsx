@@ -20,7 +20,6 @@ const Resources = ({ labName, links, password }) => {
 				<h1 className={styles.title}>{labName} Resources</h1>
 				{!access ? (
 					<form onSubmit={handleSubmit} className={styles.passwordForm}>
-						<h2>Enter Password</h2>
 						<input
 							type="password"
 							value={input}
