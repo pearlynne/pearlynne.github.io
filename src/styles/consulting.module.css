@@ -1,0 +1,92 @@
+.sectionTitle{
+  font-family: var(--font-serif);
+font-size: 2rem;
+}
+
+/* Section backgrounds alternate */
+.intro {
+  background: #f5f8ff;
+  color: var(--text);
+}
+
+.services {
+  background: #ffffff;
+}
+
+.clients {
+  background: #f5f5f5;
+}
+
+/* Titles & typography */
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(4rem, 8vw, 6rem);
+  margin-bottom: 1rem;
+	color: var(--accent);
+}
+
+.subtitle {
+  font-family: var(--font-sans);
+  color: var(--muted);
+  font-size: 18px;
+  text-align: justify;
+  max-width: 600px;
+}
+
+/* Accordion */
+.accordion {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+details {
+  margin: 0.75rem 0;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  transition: background 0.3s ease;
+}
+
+details[open] {
+  background: #eef2ff;
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--accent);
+	font-size: larger;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Client list */
+.clientList {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.clientList li {
+  margin: 0.5rem 0;
+  font-size: 16px;
+  color: var(--muted);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+  font-size: clamp(4rem, 8vw, 6rem);
+
+  }
+  .subtitle {
+    font-size: 16px;
+  }
+  .accordion {
+    padding: 0 1rem;
+  }
+}

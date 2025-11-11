@@ -1,30 +1,38 @@
-import {FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';  // Make sure to import these icons
+import React from "react";
+import styles from "../styles/footer.module.css";
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer>
-      <div>© {new Date().getFullYear()} Pearlynne</div>
-      <div className="footer-icons">
-									<a href="mailto:contact@pearlynne.dev">
-										<FaEnvelope />
-									</a>
-        <a
-          href="https://linkedin.com/in/pearlynne"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin />
-        </a>
-        <a
-          href="https://github.com/pearlynne"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub />
-        </a>
+    <footer className={styles.footer}>
+      <div className={styles.inner}>
+        <div className={styles.left}>
+          <div className={styles.subheader}><a href="mailto:contact@pearlynne.dev?subject=I need help">get in touch →</a></div>
+        </div>
+        <div className={styles.right}>
+          <div className={styles.icons}>
+            <a href="mailto:contact@pearlynne.dev">Email</a>
+						<div>●</div>
+            <a
+              href="https://linkedin.com/in/pearlynne"
+              target="_blank"
+              rel="noopener noreferrer"
+            > LinkedIn
+            </a>
+						<div>●</div>
+            <a
+              href="https://github.com/pearlynne"
+              target="_blank"
+              rel="noopener noreferrer"
+            >github
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className={styles.copy}>
+        © {new Date().getFullYear()} Pearlynne — All rights reserved
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;

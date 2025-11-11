@@ -1,0 +1,153 @@
+.pdRoot {
+  background: #fff;
+  color: var(--text);
+  line-height: 1.65;
+  padding-top: var(--header-height);
+  padding-bottom: 4rem;
+}
+
+/* Hero */
+.pdHeroWrap {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0 1.5rem;
+  position: relative;
+  z-index: 1;
+	height: calc(100vh - var(--header-height));
+}
+
+.pdHeroImage {
+  width: min(820px, 92%);
+  max-height: 70vh;
+  border-radius: 8px;
+  object-fit: contain;
+  transition: transform 200ms linear;
+  will-change: transform;
+  display: block;
+}
+
+/* Content */
+.pdContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: relative;
+	margin-top: -30vh;
+  z-index: 2;
+  
+}
+
+/* Title block */
+.pdTitleBlock {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.pdTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(22px, 3.6vw, 34px);
+  margin: 0 0 0.25rem;
+}
+
+.pdCite {
+  font-style: italic;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Section slide + fade */
+.fadeSlide {
+  width: 80%;
+  border-radius: 12px;
+  padding: 1.8rem;
+  opacity: 0.3;
+  transform: translateY(100px);
+  transition: transform 600ms cubic-bezier(0.2, 0.9, 0.2, 1), opacity 600ms ease;
+}
+
+.fadeSlide:not(:first-child) {
+  max-width: 750px;
+}
+
+.inView {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
+/* Section headings */
+.pdSectionHeading {
+  margin: 0 0 0.6rem 0;
+  font-family: var(--font-serif);
+  color: var(--accent);
+  font-size: 1.15rem;
+}
+
+.pdText {
+  color: var(--text);
+  white-space: pre-line;
+  margin: 0;
+}
+
+.pdList p {
+	margin: 0px;
+}
+
+/* Gallery */
+.pdGallery {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+  justify-items: center;
+  width: 100%;
+}
+
+.pdFigure, .pdVideo {
+  max-width: 600px;
+  width: 100%;
+}
+
+.pdFigureImg {
+  width: 100%;
+  max-height: 700px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.pdFigureCap {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  white-space: pre-line;
+}
+
+/* Responsive */
+@media (max-width: 820px) {
+
+  .fadeSlide {
+    padding: 1.25rem;
+    border-radius: 10px;
+  }
+  .pdFigureCap {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+	.pdHeroWrap{
+	height: calc(90vh - var(--header-height));
+		
+	}
+  .pdSectionHeading {
+    font-size: 1.1rem;
+  }
+  .pdTitle {
+    font-size: 1.2rem;
+  }
+
+  .pdFigureCap {
+    font-size: 0.8rem;
+  }
+}

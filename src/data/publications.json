@@ -1,0 +1,98 @@
+{
+  "publications": [
+    {
+      "authors": "**Chong, P. L. H.,** Garic, D., Shen, M. D., & Schwichtenberg, A. J.",
+      "pubDate": "(2022).",
+      "title": "Sleep, cerebrospinal fluid, and the glymphatic system: A systematic review.",
+      "journal": "*Sleep Medicine Reviews, 61,* 101572.",
+      "link": "https://doi.org/10.1016/j.smrv.2021.101572"
+    },
+    {
+      "authors": "**Chong, P. L. H.,** Abel, E., Pao, R., McCormick, C. E. B., & Schwichtenberg, A. J.",
+      "pubDate": "(2021).",
+      "title": "Sleep dysregulation and circadian electrodermal activity in children with autism spectrum disorder.",
+      "journal": "*The Journal of Genetic Psychology, 182*(5), 335–347.",
+      "link": "https://doi.org/10.1080/00221325.2021.1911919"
+    },
+    {
+      "authors": "Ho, N. F., **Chong, P. L. H.,** Lee, D. R., Chew, Q. H., Chen, G., & Sim, K.",
+      "pubDate": "(2019).",
+      "title": "The amygdala in schizophrenia and bipolar disorder: A synthesis of structural MRI, diffusion tensor imaging, and resting-state functional connectivity findings.",
+      "journal": "*Harvard Review of Psychiatry, 27*(3), 150-164.",
+      "link": "https://doi.org/10.1097/HRP.0000000000000207"
+    },
+    {
+      "authors": "Lo, J. C., **Chong, P. L. H.,** Ganesan, S., Leong, L. F. R., & Chee, W. L. M.",
+      "pubDate": "(2016).",
+      "title": "Sleep deprivation increases formation of false memory.",
+      "journal": "*Journal of Sleep Research, 25*(6), 673–682.",
+      "link": "https://doi.org/10.1111/jsr.12436"
+    },
+    {
+      "authors": "Poh, J. H., **Chong, P. L. H.,** & Chee, W. L. M.",
+      "pubDate": "(2016).",
+      "title": "Sleepless night, restless mind: Effects of sleep deprivation on mind wandering.",
+      "journal": "*Journal of Experimental Psychology: General, 145*(10), 1312–1318.",
+      "link": "https://doi.org/10.1037/xge0000207"
+    }
+  ],
+
+  "presentations": [
+    {
+      "authors": "**Chong, P. L. H.,** Elison, J., Styner, M., Shen, M. D., & Schwichtenberg, A. J.",
+      "pubDate": "(2023, May).",
+      "title": "Using the Baby Connectome Project to Inform Early Autism – Explorations of Sleep, Brain Anatomy, and Social Communication.",
+      "conference": "In Early Emerging Neurodevelopmental Differences in Autism.",
+      "location": "Oral presentation at INSAR, Stockholm, Sweden."
+    },
+    {
+      "authors": "**Chong, P. L. H.,** Prieto, J. P., Kim, S. H., Styner, M., Elison, J., Shen, M. D., & Schwichtenberg, A. J.",
+      "pubDate": "(2023, March).",
+      "title": "Sleep and extra-axial cerebrospinal fluid in early development.",
+      "conference": "In Functional and structural findings from the Baby Connectome Project.",
+      "location": "Paper Symposium at SRCD, Salt Lake City, UT."
+    },
+    {
+      "authors": "**Chong, P. L. H.,** Kellerman, A. M., Abel, E., & Schwichtenberg, A. J.",
+      "pubDate": "(2020, May).",
+      "title": "Early sleep regularity in the context of elevated autism risk.",
+      "conference": "Abstract presented at the International Society for Autism Research (INSAR).",
+      "location": "Virtual format."
+    },
+    {
+      "authors": "Schwichtenberg, A. J., Abel, E. A., **Chong, P. L. H.,** Thacker, K., Crist, E., Pelecky, L., Rao, C., & Ong, J. T.",
+      "pubDate": "(2019, November).",
+      "title": "Autism risk, sleep regularity, and developmental progress.",
+      "conference": "Poster presented at the Pediatric Sleep Medicine Conference.",
+      "location": "Naples, FL."
+    },
+    {
+      "authors": "**Chong, P. L. H.,** Honaker, S. M., Mindell, J. A., Kreps, T. A., & Schwichtenberg, A. J.",
+      "pubDate": "(2019, June).",
+      "title": "Behavioral sleep intervention: The roles of maternal sociodemographic, emotional, and informational resources.",
+      "conference": "Poster presented at the Associated Professional Sleep Societies (SLEEP).",
+      "location": "San Antonio, TX."
+    },
+    {
+      "authors": "Kellerman, A. M., Abel, E. A., **Chong, P. L. H.,** & Schwichtenberg, A. J.",
+      "pubDate": "(2019, June).",
+      "title": "Is dysregulated sleep in early childhood associated with daytime dyadic interactions?*",
+      "conference": "Poster presented at the Associated Professional Sleep Societies (SLEEP).",
+      "location": "San Antonio, TX."
+    },
+    {
+      "authors": "**Chong, P. L. H.,** Abel, E., Pao, R., & Schwichtenberg, A. J.",
+      "pubDate": "(2019, May).",
+      "title": "Sleep dysregulation and circadian electrodermal activity in children with autism spectrum disorder.",
+      "conference": "Poster presented at the International Society of Autism Research (INSAR).",
+      "location": "Montreal, Canada."
+    },
+    {
+      "authors": "**Chong, P. L. H.,** Schwichtenberg, A. J., & Abel, E.",
+      "pubDate": "(2019, March).",
+      "title": "Sleep dysregulation and electrodermal activity in children with autism spectrum disorder.",
+      "conference": "Poster presented at the Society for Research in Child Development (SRCD).",
+      "location": "Baltimore, MD."
+    }
+  ]
+}

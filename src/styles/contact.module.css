@@ -1,0 +1,19 @@
+.snapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(4rem, 8vw, 6rem);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-family: var(--font-sans);
+  color: var(--muted);
+  font-size: 18px;
+  text-align: justify;
+  max-width: 600px;
+}
