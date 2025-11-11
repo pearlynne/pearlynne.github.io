@@ -1,0 +1,577 @@
+[
+  {
+    "id": "DS01",
+    "title": "Modeling EA-CSF, Sleep, and Social Outcomes in Early Childhood",
+    "cite": "Chong, P. L. H. (2022)",
+    "media": [
+      {
+        "key": 0,
+				"type": "image",
+        "alt": "EACSF Figure 1",
+        "caption": "Line graph of predicted and observed EA-CSF volumes in 231 infants. Each point represents a visit, and each line represents a subject. Age is centered at 24 months, indicated by the red line (X = 0) on the X-axis. The predicted values (orange lines) are overlaid on observed EA-CSF volumes (variations of blue)."
+      },
+      {
+        "key": 1,
+				"type": "image",
+        "alt": "EACSF Figure 2",
+        "caption": "Line graph depicting differences in brain volume growth of infants with and without sleep dysregulation."
+      },
+      {
+        "key": 2,
+				"type": "image",
+        "alt": "EACSF Figure 3",
+        "caption": "Line graph of 184 infants' brain volume from ages 0 to 36 months."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Project Overview",
+        "type": "markdown",
+        "content": "Investigated whether extra-axial cerebrospinal fluid (EA-CSF) mediates the effect of early sleep disturbances on social communication outcomes in early development (n=400; ages 0–5)."
+      },
+      {
+        "heading": "Dataset",
+        "type": "list",
+        "items": [
+          "**Source:** Baby Connectome Project (400 infants across 10 timepoints)",
+          "**Measures:** Sleep ratings, structural MRI, social/language assessments"
+        ]
+      },
+      {
+        "heading": "Methods",
+        "type": "list",
+        "items": [
+          "**Modeling:** Structural Equation Modeling and Latent growth curve modeling (Mplus, R)",
+          "**Statistical Testing:** SEM to evaluate mediation",
+          "**Neuroimaging:** EA-CSF volume from T1 MRI (24 months)"
+        ]
+      },
+      {
+        "heading": "Technologies Used",
+        "type": "list",
+        "items": [
+          "**Analysis:** Mplus, R",
+          "**Data Handling:** tidyr and dplyr on R, SQL, Neuroimaging: Bash pipelines"
+        ]
+      },
+      {
+        "heading": "Key Findings",
+        "type": "list",
+        "items": [
+          "No evidence for EA-CSF mediating sleep/social outcomes",
+          "Elevated EA-CSF linked to lower receptive language and social reciprocity at 24 months",
+          "Sleep trajectories alone not predictive of social outcomes or EA-CSF ratios"
+        ]
+      },
+      {
+        "heading": "Impact",
+        "type": "markdown",
+        "content": "Clarified EA-CSF’s non-mediating role, highlighting need for multidimensional longitudinal models."
+      },
+      {
+        "heading": "Data Access",
+        "type": "markdown",
+        "content": "Due to ongoing publication, I am unable to share full data. However, you can view my dissertation at [Purdue Hammer](https://hammer.purdue.edu/articles/thesis/Sleep_and_developmental_risks_The_roles_of_extra-axial_cerebrospinal_fluid/20334816?file=36356652)."
+      }
+    ]
+  },
+
+  {
+    "id": "DS02",
+    "title": "Systematic Review of Sleep, CSF Circulation, and Glymphatic System Function in Various Pathologies",
+    "cite": "Chong, P. L., Garic, D., Shen, M. D., Lundgaard, I., & Schwichtenberg, A. J. (2022).",
+    "media": [
+      {
+        "key": 0,
+				"type": "image",
+        "alt": "GS Figure 1",
+        "caption": "Example of the bubble plot in the study depicting correlations, age, and effect sizes drawn from studies that assess sleep and orexin."
+      },
+      {
+        "key": 1,
+				"type": "image",
+        "alt": "GS Figure 2",
+        "caption": "Example of the bubble plot in the study depicting correlations, age, and effect sizes drawn from studies that assess sleep and amyloid-beta."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Project Overview",
+        "type": "markdown",
+        "content": "Analyzed how sleep disturbances affect CSF circulation and glymphatic system (GS) function across neurodegenerative, autoimmune, and neuropsychiatric conditions. Addressed variability in study designs."
+      },
+      {
+        "heading": "Approach",
+        "type": "list",
+        "items": [
+          "**Dataset:** 190 peer-reviewed studies (n = 19,129)",
+          "**Key Variables:** CSF metabolites (amyloid-β, tau), sleep metrics, GS function",
+          "**Methods:** Automated data extraction and correlation modeling (R)"
+        ]
+      },
+      {
+        "heading": "Technologies Used",
+        "type": "list",
+        "items": [
+          "**Analysis:** R",
+          "**Data Handling:** tidyr, dplyr",
+          "**Visualization:** ggplot2"
+        ]
+      },
+      {
+        "heading": "Challenges",
+        "type": "markdown",
+        "content": "Methodological variation across studies complicated standardization. Advanced statistical controls were needed to extract reliable associations."
+      },
+      {
+        "heading": "Key Findings",
+        "type": "list",
+        "items": [
+          "Sleep disturbances associated with shifts in amyloid-β and tau levels",
+          "Relationships varied across clinical populations",
+          "Visual patterns suggest possible GS-related biomarkers"
+        ]
+      },
+      {
+        "heading": "Impact",
+        "type": "markdown",
+        "content": "Findings support the need for standardized GS measures and deeper analysis of sleep-CSF interactions in brain disorders."
+      },
+      {
+        "heading": "Data Access",
+        "type": "markdown",
+        "content": "You can access the publication at [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC8821419/) for detailed findings."
+      }
+    ]
+  },
+
+  {
+    "id": "DS03",
+    "title": "Sleep Deficiency & Autonomic Dysregulation in Children with Autism",
+    "cite": "Chong, P. L. H., Abel, E., Pao, R., McCormick, C. E. B., & Schwichtenberg, A. J. (2021).",
+    "media": [
+      {
+        "key": 0,
+				"type": "image",
+        "alt": "E4 Figure 1",
+        "caption": "Line graph depicting the difference in frequency of NCSSCRs and accelerometer between children with and without regulated sleep across the day."
+      },
+      {
+        "key": 1,
+				"type": "image",
+        "alt": "E4 Figure 2",
+        "caption": "Line graph depicting the difference in frequency of NCSSCRs and accelerometer in each child."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Project Overview",
+        "type": "markdown",
+        "content": "Studied the effect of sleep deficiency on autonomic function in children with autism using electrodermal activity (EDA) as a physiological marker."
+      },
+      {
+        "heading": "Approach",
+        "type": "list",
+        "items": [
+          "**Dataset:** 13 children with autism",
+          "**Measures:** EDA collected via ankle/wrist sensors, sleep actigraphy, and sleep assessments",
+          "**Analysis:** Ledalab (MATLAB), R, SPSS"
+        ]
+      },
+      {
+        "heading": "Technologies Used",
+        "type": "list",
+        "items": [
+          "**Signal Processing:** Ledalab for EDA",
+          "**Statistical Tools:** R, SPSS",
+          "**Visualization:** ggplot2"
+        ]
+      },
+      {
+        "heading": "Challenges",
+        "type": "markdown",
+        "content": "Mapping EDA to sleep regulation was complex due to variability in autonomic patterns."
+      },
+      {
+        "heading": "Key Findings",
+        "type": "list",
+        "items": [
+          "Sleep-deficient children showed reduced tonic/phasic EDA signals",
+          "Autonomic dysregulation tied to both sleep and autism severity"
+        ]
+      },
+      {
+        "heading": "Impact",
+        "type": "markdown",
+        "content": "Supports further study into how sleep affects autonomic and behavioral regulation in ASD."
+      },
+      {
+        "heading": "Data Access",
+        "type": "markdown",
+        "content": "You can access the publication [here](https://www.tandfonline.com/doi/pdf/10.1080/00221325.2021.1911919?casa_token=zLgUTqALB5kAAAAA:QrQGnxm3OK3ig1-nt66D4Fxp8e1xWFdzZ7q_l2tXFmMBKoXbcQDa_XXz706PuMD9tYjGyL7Zir0AGdKi) for detailed findings."
+      }
+    ]
+  },
+
+  {
+    "id": "DS04",
+    "title": "Capturing developmentally consequential sleep dysregulation within the Baby Connectome Project",
+    "media": [
+      {
+        "key": 0,
+				"type": "image",
+        "alt": "Sleep Construct Figure 1",
+        "caption": "Individual trajectories of sleep problems in 323 infants across the first two years of life. Estimated intercept means were generated at ten time points using sleep problem scores derived from four parent-report measures. Scores above 0 indicate having more sleep problems than average, below 0 indicate fewer problems."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Project Overview",
+        "type": "markdown",
+        "content": "Classified infant sleep trajectories using latent growth curve modeling on parent-reported data across 10 time points."
+      },
+      {
+        "heading": "Approach",
+        "type": "list",
+        "items": [
+          "**Dataset:** Baby Connectome Study (10 time points, 323 children, 949 reports)",
+          "**Methods:** Latent growth curve modeling on sleep scores from four parent-report questionnaires"
+        ]
+      },
+      {
+        "heading": "Technologies Used",
+        "type": "list",
+        "items": [
+          "**Modeling:** Mplus, R",
+          "**Data Wrangling:** tidyr, dplyr in R"
+        ]
+      },
+      {
+        "heading": "Challenges",
+        "type": "markdown",
+        "content": "Standardizing sleep reports and modeling consistent vs. transient sleep issues."
+      },
+      {
+        "heading": "Key Findings",
+        "type": "list",
+        "items": [
+          "Identified sleep trajectories for 323 infants using model-estimated intercepts/slopes",
+          "Classified 35 infants (10%) with persistent sleep problems and 288 with transient/no issues",
+          "Findings align with known prevalence rates of childhood sleep dysregulation"
+        ]
+      },
+      {
+        "heading": "Impact",
+        "type": "markdown",
+        "content": "Offers replicable method for early sleep classification and groundwork for linking sleep to brain development."
+      },
+      {
+        "heading": "Data Access",
+        "type": "markdown",
+        "content": "Due to ongoing publication, I am unable to provide full access to the data and analysis at this time. However, you can view details on this study from the appendix section of my dissertation at [Purdue Hammer](https://hammer.purdue.edu/articles/thesis/Sleep_and_developmental_risks_The_roles_of_extra-axial_cerebrospinal_fluid/20334816?file=36356652)."
+      }
+    ]
+  },
+
+  {
+    "id": "DS05",
+    "title": "Webscraping prices for Jewelry - Work In Progress",
+		"media": [
+      {
+        "key": 0,
+				"type": "image",
+        "alt": "Webscrape Figure 1",
+        "caption": ""
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Overview",
+        "type": "markdown",
+        "content": "Creating a pricing calculator after scraping the web for updated precious metal prices."
+      }
+    ]
+  },
+
+  {
+    "id": "SE01",
+    "title": "Task Cat: A Simple Reward-Based To-Do List",
+    "media": [
+			{
+        "key": 0,
+				"type": "image",
+        "alt": "Task Cat Screenshot",
+        "caption": "A screenshot of the To-Do App."
+      },
+      {
+        "key": 1,
+				"type": "video",
+        "alt": "Task Cat Demo",
+        "caption": "A video demonstrating Task Cat in action."
+      }	
+    ],
+    "sections": [
+  {
+    "heading": "Overview",
+    "type": "markdown",
+    "content": "I wanted to create a to-do list that was not overwhelming with all the tags, subtasks, and categories and had a mini reward for each task completion."
+  },
+  {
+    "heading": "My Solution",
+    "type": "list",
+    "items": [
+      "A minimalist to-do list focused on just today's tasks and the near future.",
+      "Stores tasks locally (persists across sessions).",
+      "Removes completed tasks automatically.",
+      "Surprise reward — completing a task reveals a cute cat image."
+    ]
+  },
+  {
+    "heading": "Technologies Used",
+    "type": "list",
+    "items": [
+      "Local Storage to save tasks",
+      "CSS for a clean UI",
+      "Uses Cataas API"
+    ]
+  },
+  {
+    "heading": "Challenges & Learnings",
+    "type": "list",
+    "items": [
+      "Managing state efficiently without overcomplicating the UI.",
+      "Implementing persistent storage for tasks."
+    ]
+  },
+  {
+    "heading": "Future Improvements",
+    "type": "list",
+    "items": [
+      "Dark mode for better accessibility.",
+      "More animations for the cat reward.",
+      "Optional task categories (without clutter)."
+    ]
+  },
+  {
+    "heading": "Data Access",
+    "type": "markdown",
+    "content": "Check it out on GitHub: [Note Taking API](https://github.com/pearlynne/DailyToDoListAPI)."
+  }
+]
+
+  },
+
+  {
+    "id": "SE02",
+    "title": "Mental Health Tracking API",
+    "media": [
+      {
+        "key": 0,
+				"type": "image",
+        "alt": "Health Tracking Figure 1",
+        "caption": "Overview of user reports"
+      },
+      {
+        "key": 1,
+				"type": "image",
+        "alt": "Health Tracking Figure 2",
+        "caption": "Patient profile and details view"
+      },
+      {
+        "key": 2,
+				"type": "image",
+        "alt": "Health Tracking Figure 3",
+        "caption": "Summary of patient's submitted reports"
+      },
+      {
+        "key": 3,
+				"type": "image",
+        "alt": "Health Tracking Figure 4",
+        "caption": "Summary statistics on user's mood ratings"
+      }
+    ],
+   "sections": [
+  {
+    "heading": "Overview",
+    "type": "markdown",
+    "content": "A mental health tracking API designed for therapy users and providers. Users log daily reports, helping them recall events and identify triggers. Providers use this data to offer personalized insights."
+  },
+  {
+    "heading": "Key Features",
+    "type": "list",
+    "items": [
+      "**Authentication & Authorization:** Secure login for users & providers",
+      "**Behavioral Tracking:** Log mood, symptoms & medication reactions",
+      "**Appointment Management:** Schedule & manage appointments",
+      "**Data Insights:** Aggregate statistics for mood trends"
+    ]
+  },
+  {
+    "heading": "Tech Stack",
+    "type": "list",
+    "items": [
+      "**Backend:** Express.js, MongoDB, Mongoose",
+      "**Security:** JWT authentication, bcrypt hashing",
+      "**Data Handling:** Indexed MongoDB, text search",
+      "**Testing:** Jest for unit tests"
+    ]
+  },
+  {
+    "heading": "Challenges & Solutions",
+    "type": "list",
+    "items": [
+      "**Data Privacy:** Role-based authorization to control access",
+      "**Efficient Search:** Indexed DB & text search for fast retrieval",
+      "**Handling Large Data:** Optimized MongoDB queries"
+    ]
+  },
+  {
+    "heading": "Outcome & Next Steps",
+    "type": "markdown",
+    "content": "The API streamlines mental health tracking. Future improvements include a frontend interface and advanced data analytics."
+  },
+  {
+    "heading": "Data Access",
+    "type": "markdown",
+    "content": "Check it out on GitHub: [Health Tracking API](https://github.com/pearlynne/HealthTrackingAPI)."
+  }
+]
+
+  },
+
+  {
+    "id": "SE03",
+    "title": "Jewelry Ecommerce App",
+    "media": [
+      {
+        "key": 0,
+				"type": "image",
+        "alt": "Ecomm Figure 1",
+        "caption": "Product page"
+      },
+      {
+        "key": 1,
+				"type": "image",
+        "alt": "Ecomm Figure 2",
+        "caption": "Shopping cart"
+      },
+      {
+        "key": 2,
+				"type": "image",
+        "alt": "Ecomm Figure 3",
+        "caption": "Contact form"
+      },
+      {
+        "key": 3,
+				"type": "image",
+        "alt": "Ecomm Figure 4",
+        "caption": "Login page"
+      },
+      {
+        "key": 4,
+				"type": "image",
+        "alt": "Ecomm Figure 5",
+        "caption": "Sign up page"
+      }
+    ],
+    "sections": [
+  {
+    "heading": "Overview",
+    "type": "markdown",
+    "content": "A small bespoke jewelry business app that enables users to browse products, create accounts, manage carts, and track purchases. Built to replace third-party platforms like Etsy, giving full control over the business."
+  },
+  {
+    "heading": "Key Features",
+    "type": "list",
+    "items": [
+      "Fetches shop inventory from Firebase",
+      "Renders product image, title, description, and price",
+      "Allows users to add products to cart",
+      "Allows users to view shopping cart",
+      "Allows purchase confirmation (without payment gateway service)",
+      "Writes purchase details to Firebase, updating inventory and account information",
+      "Creates user account",
+      "Authenticates user account with Firebase"
+    ]
+  },
+  {
+    "heading": "Tech Stack",
+    "type": "list",
+    "items": [
+      "**Frontend:** React, React Router",
+      "**Backend:** Firebase (Authentication, Database, Hosting)",
+      "**Testing:** Vitest, React Testing Library"
+    ]
+  },
+  {
+    "heading": "Challenges & Solutions",
+    "type": "list",
+    "items": [
+      "Firebase hosting setup was complex and required further reading on GitHub deployment.",
+      "Adjusting data structures was necessary to support real-time updates.",
+      "Filtering purchases based on authentication required modifying fetch logic."
+    ]
+  },
+  {
+    "heading": "Future Improvements",
+    "type": "list",
+    "items": [
+      "Implement product galleries to support multiple images per product.",
+      "Integrate a payment gateway such as Stripe or PayPal.",
+      "Add a search function to allow users to find products by name."
+    ]
+  },
+  {
+    "heading": "Data Access",
+    "type": "markdown",
+    "content": "Check it out live: [Firebase Hosting](https://etal-ecomm.web.app/)."
+  }
+]
+
+  },
+
+  {
+    "id": "SE04",
+    "title": "Personal Portfolio Site - Work In Progress",
+		"media": [
+      {
+        "key": 0,
+				"type": "image",
+        "alt": "Personal Portfolio",
+        "caption": "Personal Portfolio"
+      }],
+    "sections": [
+  {
+    "heading": "Overview",
+    "type": "markdown",
+    "content": "A responsive portfolio showcasing projects, resume, and skills, hosted on GitHub Pages with a custom domain."
+  },
+  {
+    "heading": "Key Features",
+    "type": "markdown",
+    "content": "Project showcase grid, image carousel, embedded Google Docs resume, clean and minimal CSS styling."
+  },
+  {
+    "heading": "Tech Stack",
+    "type": "list",
+    "items": [
+      "**Frontend:** Vite, React, React Router, plain CSS, GitHub Pages"
+    ]
+  },
+  {
+    "heading": "Challenges & Solutions",
+    "type": "markdown",
+    "content": "Mastering responsive design and fine-tuning CSS layouts; overcame by iterative testing and layout adjustments."
+  },
+  {
+    "heading": "Future Improvements",
+    "type": "list",
+    "items": [
+      "Combine Footer with Contact",
+      "Smooth transition/scroll on Home page"
+    ]
+  }
+]
+
+  }
+]
