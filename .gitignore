@@ -24,3 +24,16 @@ dist-ssr
 *.sw?
 .vite
 src/__archive__/
+
+# Your existing code...
+
+# Environment Variables
+.env
+*.env.*local
+
+# Testing / Coverage
+/coverage
+
+# OS Files
+Thumbs.db
+Desktop.ini
