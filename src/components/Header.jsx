@@ -1,31 +1,35 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import styles from "../styles/header.module.css";
 
 function Header() {
-  const location = useLocation();
-  const navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleSectionClick = (sectionId) => {
-    if (location.pathname !== "/") {
-      // If not on Home, navigate there first
-      navigate("/");
-    }
-    window.location.href = `/#${sectionId}`;
-    // console.log(sectionId);
-  };
+  const handleLinkClick = () => setMenuOpen(false);
+  const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header>
-      <div className="name">
+    <header className={styles.header}>
+      <div className={styles.logo}>
         <Link to="/">pearlynne</Link>
       </div>
-      <nav>
-        <Link to="/consulting">Consulting</Link>
-        <Link to="/portfolio">Works</Link>
-        <Link to="/publications">Publications</Link>
-				<a href="https://drive.google.com/file/d/1tSTY6SJTF-GCiAEXD4yp_4EGcHk8qZY8/view?usp=sharing" target="_blank">Resume</a>
-        <Link to="/contact">Contact</Link>
+
+      <nav className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
+        <Link to="/consulting" onClick={handleLinkClick}>Consulting</Link>
+        <Link to="/portfolio" onClick={handleLinkClick}>Portfolio</Link>
+        <Link to="/publications" onClick={handleLinkClick}>Publications</Link>
+        <span className={styles.contact}>
+					<Link to="/contact" onClick={handleLinkClick}>Get in touch</Link>
+				</span>
       </nav>
+
+      <button className={styles.menuButton} onClick={toggleMenu} aria-label="Menu">
+        <span className={`${styles.bar} ${menuOpen ? styles.bar1 : ""}`}></span>
+        <span className={`${styles.bar} ${menuOpen ? styles.bar2 : ""}`}></span>
+        <span className={`${styles.bar} ${menuOpen ? styles.bar3 : ""}`}></span>
+      </button>
     </header>
   );
 }
+
 export default Header;
