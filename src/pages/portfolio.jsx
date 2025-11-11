@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "../styles/Portfolio.module.css";
+import styles from "../styles/portfolio.module.css";
 import { media, projectsMeta } from "@/assets/media";
 
 const Portfolio = () => {
