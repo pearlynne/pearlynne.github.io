@@ -6,7 +6,7 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.left}>
-          <div className={styles.subheader}><a href="mailto:contact@pearlynne.dev?subject=I need help">get in touch →</a></div>
+          <div className={styles.subheader}><a href="mailto:contact@pearlynne.dev?subject=Inquiry%20from%20Website">get in touch →</a></div>
         </div>
         <div className={styles.right}>
           <div className={styles.icons}>
