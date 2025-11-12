@@ -8,10 +8,11 @@
 .portfolioRoot {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
-  padding-top: var(--header-height);
   box-sizing: border-box;
-	height: 100vh;
+  padding-top: var(--header-height);
+  /* min-height: 100vh; */
 }
 
 /* Section: stacked vertically */
@@ -19,12 +20,13 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  min-height: calc(50vh - (var(--header-height)/2));
+  min-height: calc(50vh - (var(--header-height) / 2));
+  justify-content: space-evenly;
 }
 
 /* Left half: title */
 .leftHalf {
-  flex: 0 0 200px;
+  flex: 0 0 clamp(120px, 20%, 200px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,10 +34,11 @@
 }
 
 .projectsTitle {
+  margin: 0;
   font-size: 1.8rem;
   font-weight: bold;
-	font-family: var(--font-serif);
-	color: var(--accent);
+  font-family: var(--font-serif);
+  color: var(--accent);
 }
 
 /* Right half: carousel */
@@ -47,6 +50,7 @@
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   padding: 1rem;
+	min-width: clamp(250px, 70vw, 600px);
   scrollbar-width: none; /* Firefox */
 }
 
@@ -92,31 +96,35 @@
   text-overflow: ellipsis;
 }
 
-/* Responsive: show 1 card at a time, stack halves vertically */
 @media (max-width: 768px) {
   .projects {
     flex-direction: column;
-    min-height: auto;
+    min-height: 0; /* allow flex to shrink */
+    flex: 1 1 50%; /* each projects div gets half of container */
+    justify-content: space-between;
   }
 
-  .leftHalf {
-    flex: 0 0 auto;
-    justify-content: flex-start;
-    padding: 0.5rem 1rem;
-  }
-
+  .leftHalf,
   .rightHalf {
-    padding: 0.5rem 1rem;
+    width: 100%;
+    flex: 0 1 auto;
+    padding: 1rem 2rem;
   }
 
   .carousel {
+    flex-wrap: nowrap;
     gap: 12px;
   }
 
   .card {
-    flex: 0 0 90%;
     max-width: 90%;
-    height: 200px;
     scroll-snap-align: center;
+  }
+}
+
+/* For short screens (height ≤ 600px) */
+@media (max-height: 600px) {
+  .portfolioRoot {
+    flex: 1 1 50%;
   }
 }

@@ -27,24 +27,24 @@ const Portfolio = () => {
     <>
       <div className={styles.portfolioRoot}>
         {/* ===== Data Projects Section ===== */}
-        <section className={styles.projects}>
+        <div className={styles.projects}>
           <div className={styles.leftHalf}>
             <h2 className={styles.projectsTitle}>Data</h2>
           </div>
           <div className={styles.rightHalf}>
             <div className={styles.carousel}>{renderCards(dataProjects)}</div>
           </div>
-        </section>
+        </div>
 
         {/* ===== Software Projects Section ===== */}
-        <section className={styles.projects}>
+        <div className={styles.projects}>
           <div className={styles.leftHalf}>
             <h2 className={styles.projectsTitle}>Software</h2>
           </div>
           <div className={styles.rightHalf}>
             <div className={styles.carousel}>{renderCards(seProjects)}</div>
           </div>
-        </section>
+        </div>
       </div>
     </>
   );
