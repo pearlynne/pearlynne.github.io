@@ -3,7 +3,7 @@
    - Resets, base typography, colors
    ================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Petit+Formal+Script&family=Pinyon+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Petit+Formal+Script&family=Pinyon+Script&display=swap");
 
 /* Global resets and variables */
 :root {
@@ -41,7 +41,7 @@ body {
 
 main {
   flex: 1;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
@@ -66,7 +66,7 @@ a:hover {
 }
 
 p {
-  font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
 }
 
 img {
@@ -77,29 +77,27 @@ img {
 section {
   min-height: 100vh;
   scroll-snap-align: start;
+  scroll-snap-stop: always;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem 2rem;
+ padding-inline: max(2.5rem, 5vw);
+padding-block: 2rem;
   position: relative;
 }
 
-.page-snap section {
-  min-height: 100vh;
-  scroll-snap-align: start;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+section:first-of-type {
+  padding-top: max(calc(var(--header-height) + 0.5rem), 2rem);
 }
 
-/* Mobile scaling */
+section:last-of-type {
+  min-height: calc(100vh - 10rem); /* desktop estimate */
+}
+
 @media (max-width: 768px) {
-}
-
-@media (max-width: 480px) {
-  section {
-    padding: 2.5rem;
+  section:last-of-type {
+    min-height: calc(100vh - 14rem); /* stacked footer estimate */
   }
 }
+
