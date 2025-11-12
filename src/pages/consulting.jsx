@@ -6,7 +6,7 @@ function Consulting() {
       <div className={styles.snapContainer}>
 
         {/* ===== Introduction =====*/}
-        <section className={`${styles.section} ${styles.intro}`}>
+        <section className={styles.intro}>
           <div className={styles.introContent}>
             <h1 className={styles.title}>Consulting</h1>
             <p className={styles.subtitle}>
@@ -32,7 +32,7 @@ function Consulting() {
         </section>
 
         {/* ===== Services Accordion =====*/}
-        <section className={`${styles.section} ${styles.services}`}>
+        <section className={styles.services}>
           <h2 className={styles.sectionTitle}>Services offered</h2>
           <div className={styles.accordion}>
             <details>
@@ -87,7 +87,7 @@ function Consulting() {
         </section>
 
         {/* ===== Past Clients / Collaborators =====*/}
-        <section className={`${styles.section} ${styles.clients}`}>
+        <section className={styles.clients}>
           <h2 className={styles.sectionTitle}>Selected Clients</h2>
           <ul className={styles.clientList}>
             <li>
@@ -109,8 +109,7 @@ function Consulting() {
             </li>
             <li>
               <strong>
-                Dr. Sum MY (now Senior Research Specialist at National Council
-                of Social Science Singapore)
+                Dr. Sum MY (now Researcher in Singapore)
               </strong>{" "}
               – Dissertation support (completed)
             </li>
