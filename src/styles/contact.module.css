@@ -13,7 +13,6 @@
 .subtitle {
   font-family: var(--font-sans);
   color: var(--muted);
-  font-size: 18px;
   text-align: justify;
   max-width: 600px;
 }
