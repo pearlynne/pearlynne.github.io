@@ -17,11 +17,6 @@
   align-items: center;
 }
 
-.contact {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--muted);
-}
 
 .right {
   min-width: 100px;
@@ -30,9 +25,10 @@
 .icons {
   display: flex;
   justify-content: space-between;
-  font-size: 1rem;
 	text-transform: uppercase;
+  flex-wrap: wrap;
 	gap: 5px;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 /* Copyright section */
