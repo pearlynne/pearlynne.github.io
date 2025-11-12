@@ -10,7 +10,6 @@ function Publications() {
   const inView = useInView(aboutTitleRef);
 
   return (
-    <>
       <main className={styles.works}>
         {/* ======= Publications ======= */}
         <section className={styles.publications}>
@@ -64,7 +63,6 @@ function Publications() {
           </ul>
         </section>
       </main>
-    </>
   );
 }
 
