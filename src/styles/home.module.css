@@ -4,7 +4,6 @@
   align-items: center;
 }
 
-
 /* ---------- HERO ---------- */
 .hero {
   background: #ffffff;
@@ -22,15 +21,15 @@
 .name {
   font-family: var(--font-serif);
   color: var(--accent);
-  font-size: clamp(24px, 8vw, 56px);
-  font-weight: 400;
+	font-size: clamp(1.5rem, 4vw + 1rem, 3.25rem);
+  font-weight: 500;
   font-style: italic;
   margin: -10px;
 }
 
 .subtitle {
   font-family: var(--font-serif);
-  font-size: clamp(24px, 8vw, 36px);
+	font-size: clamp(1.5rem, 2.5vw + 0.5rem, 2rem);
   color: var(--muted);
   margin-top: 12px;
   margin-bottom: 6px;
@@ -39,12 +38,14 @@
 .subtext {
   max-width: 500px;
 }
+
 .navLinks {
   display: flex;
   justify-content: center;
   gap: 0; /* start collapsed */
   animation: spreadOut 0.8s ease forwards;
- font-size: clamp(1rem, 2.5vw, 1.5rem);
+	font-size: clamp(1.2rem, 2.5vw + 0.5rem, 1.5rem);
+
 }
 
 .navLinks a {
@@ -98,66 +99,75 @@
   background: #f5f8ff;
   min-height: fit-content;
   text-align: justify;
-  margin-top: -15vh;
   position: relative;
   z-index: 2;
   padding-top: 0rem;
+  /* margin-top: -5vh; */
   width: 100%;
 }
 
 .aboutTitle {
   font-family: var(--font-serif);
   font-style: italic;
-  letter-spacing: 2px;
   font-weight: 600;
-  font-size: clamp(28px, 6vw, 56px);
+  letter-spacing: 50px;
+	font-size: clamp(1.5rem, 4vw + 1rem, 3.25rem);
   opacity: 0.3;
-  transform: translateY(30px);
+  margin: 0rem;
+  transform: translateY(-5vh);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .inView {
   opacity: 1;
+  margin: 1rem;
   transform: translateY(0);
+  animation: collapseIn 0.8s ease forwards;
+}
+
+@keyframes collapseIn {
+  from {
+    letter-spacing: 50px;
+  }
+  to {
+    letter-spacing: 2px;
+  }
 }
 
 .profilePic {
-  width: 160px;
-  height: 160px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .aboutText {
   max-width: 600px;
-  margin: 0 auto;
-  font-size: 16px;
   color: var(--muted);
   line-height: 1.6;
 }
 
-.aboutText.p {
-  margin-bottom: 1em;
-  font-size: 1rem;
-}
 
 /* Responsive tweaks */
-@media (max-width: 900px) {
-  .name {
-    font-size: clamp(28px, 10vw, 60px);
-  }
-  .subtitle {
-    font-size: 18px;
-  }
+@media (max-width: 900px) { 
   .aboutTitle {
-    font-size: clamp(24px, 8vw, 40px);
+    letter-spacing: 20px;
+  }
+
+  @keyframes collapseIn {
+    from {
+      letter-spacing: 20px;
+    }
+    to {
+      letter-spacing: 2px;
+    }
   }
 }
 
 @media (max-width: 480px) {
   .profilePic {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 }
