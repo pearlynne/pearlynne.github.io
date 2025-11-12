@@ -5,36 +5,36 @@
   margin: 2rem;
 }
 
-
 .passwordForm {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  width: 300px;
+  min-width: 250px;
 }
 
 .input {
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
 }
 
 .button {
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
   cursor: pointer;
 }
 
 .title {
   font-family: var(--font-serif);
-  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.5rem, 4vw + 1rem, 3.25rem);
   margin-bottom: 1rem;
+  text-align: center;
+
 }
 
 .resources {
   font-family: var(--font-sans);
   color: var(--muted);
-  font-size: 18px;
-  text-align: justify;
+  font-size: clamp(1.2rem, 2.5vw + 0.5rem, 1.5rem);
   max-width: 600px;
 }
 
@@ -49,11 +49,12 @@
 
 .button {
   padding: 0.6rem 1.2rem;
-  font-size: 1rem;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+
   font-weight: 600;
   cursor: pointer;
   border: 3px solid var(--accent);
-  background: transparent; 
+  background: transparent;
   color: var(--accent);
   border-radius: 8px;
   transition: all 0.3s ease;
@@ -63,5 +64,5 @@
   background: var(--accent);
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
