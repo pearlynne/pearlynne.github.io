@@ -1,4 +1,5 @@
 import styles from "../styles/consulting.module.css";
+import { Link } from "react-router-dom";
 
 function Consulting() {
   return (
@@ -26,7 +27,8 @@ function Consulting() {
             </p>
             <p className={styles.subtitle}>
               👉<a href="mailto:contact@pearlynne.dev">Contact Me</a> to start a
-              conversation.
+              conversation or check out <Link to="/resources">snippets from my workshops.</Link>
+
             </p>
           </div>
         </section>
