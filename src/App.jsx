@@ -9,7 +9,7 @@ import ProjectTemplate from "./components/ProjectTemplate";
 import ScrollToTop from "./components/ScrollToTop";
 import Layout from "./components/Layout";
 import MSUAutismLabResources from "./pages/workshops/msuAutismLab";
-import PublicResources from "./pages/publicresources";
+import PublicResources from "./pages/publicResources";
 
 function App() {
   return (
