@@ -1,0 +1,44 @@
+.snapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-serif);
+	font-size: clamp(1.5rem, 2.5vw + 0.5rem, 2rem);
+  margin-bottom: 0;
+	color: var(--accent);
+	animation: fadeIn 0.8s ease forwards;
+	text-align: center;
+}
+
+.subtitle {
+  font-family: var(--font-sans);
+	font-size: clamp(1.2rem, 2.5vw + 0.5rem, 1.5rem);
+  color: var(--muted);
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.summary {
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+}
+
+.shareAgain {
+  position: relative;
+width: min(800px, 100%);
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .shareAgain {
+  }
+}
+
+.shareAgain iframe {
+  width: 100%;
+  height: 100%;
+  border: 2px solid currentColor;
+	aspect-ratio: 4/3;
+}
