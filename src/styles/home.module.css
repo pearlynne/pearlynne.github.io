@@ -10,6 +10,8 @@
   text-align: center;
   color: var(--text);
   position: relative;
+	 width: 100%;
+	 overflow-x: hidden;  
 }
 
 .heroContent {
