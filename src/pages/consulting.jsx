@@ -26,8 +26,8 @@ function Consulting() {
               and ideas.
             </p>
             <p className={styles.subtitle}>
-              👉<a href="mailto:contact@pearlynne.dev">Contact Me</a> to start a
-              conversation or check out <Link to="/resources">snippets from my workshops.</Link>
+              👉 <a href="mailto:contact@pearlynne.dev">Contact Me</a> to start a
+              conversation or check out <Link to="/resources"> 💻 snippets from my workshops.</Link>
 
             </p>
           </div>
@@ -93,35 +93,44 @@ function Consulting() {
           <h2 className={styles.sectionTitle}>Selected Clients</h2>
           <ul className={styles.clientList}>
             <li>
-              <strong>Dr. Flower B (Lecturer at La Trobe University)</strong> –
+              <strong><a href="https://scholars.latrobe.edu.au/bflower">Dr. Flower B</a> <p className={styles.clientsName}>(Lecturer at La Trobe University)</p></strong> –
               Community Consultant for thesis projects (ongoing)
             </li>
             <li>
               <strong>
-                Sun J (now Clinical Recruitment Coordinator at Parexel)
+                Sun J <p className={styles.clientsName}>(now Clinical Recruitment Coordinator at Parexel)</p>
               </strong>{" "}
               – Independent undergraduate research project (completed)
             </li>
             <li>
               <strong>
-                Zhang S (now Graduate Student at Virginia Tech School of
-                Neuroscience)
+                Zhang S <p className={styles.clientsName}>(now Graduate Student at Virginia Tech School of
+                Neuroscience)</p>
               </strong>{" "}
               – Independent undergraduate research project (completed)
             </li>
             <li>
               <strong>
-                Dr. Sum MY (now Researcher in Singapore)
+                Dr. Sum MY <p className={styles.clientsName}>(now Researcher in Singapore)</p>
               </strong>{" "}
               – Dissertation support (completed)
             </li>
             <li>
               <strong>
-                Dr. Hassan MZ (now Postdoctoral fellow in Michigan State
-                University Department of Psychology)
+                Dr. Hassan MZ <p className={styles.clientsName}>(now Postdoctoral fellow in Michigan State
+                University Department of Psychology)</p>
               </strong>{" "}
               – Dissertation support (completed)
             </li>
+          </ul>
+					<h2 className={styles.sectionTitle}>Workshops</h2>
+          <ul className={styles.clientList}>
+            <li>
+              Nov 7th, 2025 - Workshop on Data & Stats in Research for <a href="https://autismlab.psy.msu.edu/">MSU Autism Lab</a> (<a href="./resources">💻 Slide preview</a>)
+            </li>
+						<li>
+							Sept 7th, 2025 - Workshop on Data in Research through Visualizations for <a href="https://hhs.purdue.edu/sleep/">Purdue Sleep and Developmental Studies Lab</a>
+						</li>
           </ul>
         </section>
       </div>

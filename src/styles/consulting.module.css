@@ -1,12 +1,14 @@
 .sectionTitle{
   font-family: var(--font-serif);
 	font-size: clamp(1.5rem, 4vw + 1rem, 3.25rem);
+	margin-bottom: 1rem;
 }
 
 /* Section backgrounds alternate */
 .intro {
   background: #f5f8ff;
   color: var(--text);
+	margin-bottom: -5vh;
 }
 
 .services {
@@ -78,7 +80,7 @@ summary::-webkit-details-marker {
   padding: 0;
   margin-top: 1rem;
   text-align: left;
-}
+} 
 
 .clientList li,
 .accordion li {
@@ -87,3 +89,9 @@ summary::-webkit-details-marker {
   color: var(--muted);
 }
 
+.clientsName {
+	color: var(--accent);
+	display: inline;
+	font-weight: 400;
+	font-style: italic;
+}
