@@ -20,6 +20,9 @@ function Consulting() {
               startups, and organizations who want to make their data more
               useful and actionable.
             </p>
+						<p className={styles.subtitle}>
+             My approach emphasizes accessibility and a strengths-based perspective, informed by extensive work with neurodivergent populations
+            </p>
             <p className={styles.subtitle}>
               Whether you are just starting a project or polishing the final
               manuscript, I can help you get clarity and confidence in your data
@@ -125,6 +128,9 @@ function Consulting() {
           </ul>
 					<h2 className={styles.sectionTitle}>Workshops</h2>
           <ul className={styles.clientList}>
+						<li>
+              Jan 12th, 2026 - Workshop on Introduction to SPSS and Statistics for <a href="https://autismlab.psy.msu.edu/">MSU Autism Lab</a> (<a href="./resources">💻 Slide preview</a>)
+            </li>
             <li>
               Nov 7th, 2025 - Workshop on Data & Stats in Research for <a href="https://autismlab.psy.msu.edu/">MSU Autism Lab</a> (<a href="./resources">💻 Slide preview</a>)
             </li>
