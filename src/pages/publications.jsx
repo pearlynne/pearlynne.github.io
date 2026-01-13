@@ -13,7 +13,7 @@ function Publications() {
       <main className={styles.works}>
         {/* ======= Publications ======= */}
         <section className={styles.publications}>
-          <h2>Publications</h2>
+          <h2>Selected Publications</h2>
           <ul className={styles.list}>
             {data.publications.map((pub, idx) => (
               <li key={idx} className={styles.publicationItem}>
