@@ -1,6 +1,13 @@
 {
   "publications": [
     {
+      "authors": "Vijayakrishnan Nair, V., Kish, B. R., **Chong, P. L. H.,** Yang, H. S., Wu, Y. C., Tong, Y., & Schwichtenberg, A. J.",
+      "pubDate": "(2023).",
+      "title": "Neurofluid coupling during sleep and wake states.",
+      "journal": "*Sleep Medicine, 110,* 44-53.",
+      "link": "https://doi.org/10.1016/j.sleep.2023.07.021"
+    },
+		{
       "authors": "**Chong, P. L. H.,** Garic, D., Shen, M. D., & Schwichtenberg, A. J.",
       "pubDate": "(2022).",
       "title": "Sleep, cerebrospinal fluid, and the glymphatic system: A systematic review.",
@@ -27,13 +34,6 @@
       "title": "Sleep deprivation increases formation of false memory.",
       "journal": "*Journal of Sleep Research, 25*(6), 673–682.",
       "link": "https://doi.org/10.1111/jsr.12436"
-    },
-    {
-      "authors": "Poh, J. H., **Chong, P. L. H.,** & Chee, W. L. M.",
-      "pubDate": "(2016).",
-      "title": "Sleepless night, restless mind: Effects of sleep deprivation on mind wandering.",
-      "journal": "*Journal of Experimental Psychology: General, 145*(10), 1312–1318.",
-      "link": "https://doi.org/10.1037/xge0000207"
     }
   ],
 
