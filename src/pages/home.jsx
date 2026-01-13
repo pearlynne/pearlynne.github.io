@@ -61,9 +61,9 @@ function Home() {
 					</a>
 					<div className={styles.aboutText}>
 						<p>
-							I’m a PhD graduate with expertise in data analysis, visualization,
-							and modeling, and some experience with software development. My
-							research examined longitudinal and cross-sectional data in sleep,
+							I’m a developmental neuroscientist with expertise in data analysis, visualization,
+							and modeling, and experience with software development. My PhD
+							research focused on longitudinal and cross-sectional data in sleep,
 							neurodevelopmental disabilities, and neuroimaging.
 						</p>
 						<p>
@@ -72,7 +72,7 @@ function Home() {
 							study design, and academic writing.
 						</p>
 						<p>
-							Outside of tech, I coach individuals with ADHD and run my own
+							Outside of tech, I coach individuals with ADHD and run my own hand fabricated
 							jewelry business!
 						</p>
 					</div>
