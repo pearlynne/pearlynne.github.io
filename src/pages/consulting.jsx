@@ -129,7 +129,7 @@ function Consulting() {
 					<h2 className={styles.sectionTitle}>Workshops</h2>
           <ul className={styles.clientList}>
 						<li>
-              Jan 12th, 2026 - Workshop on Introduction to SPSS and Statistics for <a href="https://autismlab.psy.msu.edu/">MSU Autism Lab</a> (<a href="./resources">💻 Slide preview</a>)
+              Jan 9th, 2026 - Workshop on Introduction to Research Methods in SPSS for <a href="https://autismlab.psy.msu.edu/">MSU Autism Lab</a>
             </li>
             <li>
               Nov 7th, 2025 - Workshop on Data & Stats in Research for <a href="https://autismlab.psy.msu.edu/">MSU Autism Lab</a> (<a href="./resources">💻 Slide preview</a>)
